@@ -1,8 +1,4 @@
 var express = require('express');
-var arduino = require('duino');
-var board = new arduino.Board({
-  debug: true
-});
 var app = express();
 
 
