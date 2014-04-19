@@ -16,7 +16,10 @@
   "bugs": {
     "url": "https://github.com//holoalarm/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "duino": "0.0.8",
+    "express": "~4.0.0"
+  },
   "devDependencies": {
     "expect.js": "~0.2.0",
     "grunt-contrib-jshint": "~0.6.4",
