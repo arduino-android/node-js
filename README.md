@@ -21,4 +21,4 @@ you can change this port in the arduino code
 you can download the Android Test App : https://play.google.com/store/apps/details?id=com.damien.holotestandroid.app
 
 
-![alt tag](https://github.com/arduino-android/node-js/photo.jpg)
+![alt tag](https://github.com/arduino-android/node-js/blob/master/photo.jpg)
