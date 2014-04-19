@@ -6,8 +6,6 @@ var board = new arduino.Board({
 var app = express();
 
 
-
-
 var SerialPort = require("serialport").SerialPort;
 var serialPort = new SerialPort("/dev/tty.usbserial-A400fNZR", {
   baudrate: 9600
@@ -28,20 +26,15 @@ serialPort.open(function () {
     res.end();
   });
 
-
-      app.get('/off', function(req, res) {
-        serialPort.write("0", function(err, results) {
-          console.log('err ' + err);
-          console.log('results ' + results);
-          console.log( results);
-        });
-      res.end();
-
+  app.get('/off', function(req, res) {
+    serialPort.write("0", function(err, results) {
+      console.log('err ' + err);
+      console.log('results ' + results);
+      console.log( results);
     });
-
-
+    res.end();
+    });
 });
-
 
 
 app.listen(3000);

@@ -17,7 +17,6 @@
     "url": "https://github.com//holoalarm/issues"
   },
   "dependencies": {
-    "duino": "0.0.8",
     "express": "~4.0.0",
     "serialport": "~1.4.0"
   },
