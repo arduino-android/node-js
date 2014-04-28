@@ -35,9 +35,9 @@ a simple led circuit like that ( http://arduino.cc/en/Tutorial/Blink?from=Tutori
 
 #  Arduino Instructions
 
-  you can change the pin 52 in the arduino code
-  you need to change the the serial port 
-  var serialPort = new SerialPort("/dev/tty.usbserial-A400fNZR");
+   you can change the pin 52 in the arduino code
+   you need to change the the serial port 
+   var serialPort = new SerialPort("/dev/tty.usbserial-A400fNZR");
  /dev/tty.usbserial-A400fNZR should be the same that you use in arduino ( tools, serial port , /dev/tty.usbserial-A400fNZR  )
  
 #  Android
